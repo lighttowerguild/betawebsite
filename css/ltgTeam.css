@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Karla);
+
+
+
+img lgt-flow-chart {
+  background: no-repeat center fixed;
+  background-size: cover;
+  height: auto;
+  width: 30%;
+}
+
+animate-text {
+  float: left;
+}
+
+/* body {
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 100px;
+  background-color: #202020;
+  color: #f9f9f9;
+} */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cursor {
+  animation: blink 0.7s infinite;
+}
