@@ -3,8 +3,12 @@
 }
 
 body {
-  /* Location of the image */
-  background-image: url(/images/currentProjects_1920.jpg);
+  /* Location of the image 
+  added and overlay to make background image blend - koren
+  */
+  background: url(/images/currentProjects_1920.jpg), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
   /* Background image doesn't tile */
