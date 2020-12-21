@@ -38,6 +38,10 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
+narbar {
+  margin-top: 0;
+}
+
 /* LEVEL-1 STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .level-1 {

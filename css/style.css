@@ -2,79 +2,82 @@
 
 #main-body {
   /* Location of the image */
-  background-image: url(/images/LightTower.jpg), linear-gradient(rgba(92, 91, 91, 0.5),rgba(0,0,0,0.5));
+  background-image: url(/images/LightTower.jpg),
+    linear-gradient(rgba(92, 91, 91, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
-  
-   /* Background image is centered vertically and horizontally at all times */
-   background-position: center center;
-   /* Background image doesn't tile */
-   background-repeat: no-repeat;
-   /* Background image is fixed in the viewport so that it doesn't move when 
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
         the content's height is greater than the image's height */
-   background-attachment: fixed;
-   /* This is what makes the background image rescale based
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
         on the container's size */
-   background-size: cover;
-   /* Set a background color that will be displayed
+  background-size: cover;
+  /* Set a background color that will be displayed
         while the background image is loading */
-   background-color: #464646;
- }
- 
- /* Style the navbar */
- #navbar {
-   overflow: hidden;
-   background-color: #333;
- }
- 
- h1{
-  font-family: 'Trochut', cursive;
- }
- 
- /* Navbar links */
- #navbar a {
-   float: left;
-   display: block;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px;
-   text-decoration: none;
-  
- }
- 
- /* Page content */
- .content {
-   padding: 16px;
- }
- 
- /* The sticky class is added to the navbar with JS when it reaches its scroll position */
- .sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
- }
- 
- /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
- .sticky + .content {
-   padding-top: 60px;
- }
- 
- h1, h2 {
-   color: whitesmoke;
-   text-align: center;
- }
- 
- #loginButton {
-   float: right;
-   background-image: url(/images/favicon-32x32.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 32px;
-   width: 32px;
-   margin-top: 8px;
- }
- 
- .login-text {
-   color:white;
-   float: right;
-   margin-top: 16px;
- }
+  background-color: #464646;
+  overflow: auto;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+h1, h2 {
+  font-family: "Trochut", cursive;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#loginButton {
+  float: right;
+  background-image: url(/images/favicon-32x32.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 32px;
+  width: 32px;
+  margin-top: 8px;
+}
+
+.login-text {
+  color: white;
+  float: right;
+  margin-top: 16px;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
