@@ -11,7 +11,10 @@
 }
 
 .card {
+  /*added a border radius and added a background color to differentiate between the box and the background - koren*/
+  background-color: rgba(78, 78, 78, 0.781);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
   max-width: 300px;
   margin: auto;
   text-align: center;

@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Karla);
 
+h1{
+  color: grey;
+}
 
+h2 {
+  color: blueviolet;
+}
 
 img lgt-flow-chart {
   background: no-repeat center fixed;
